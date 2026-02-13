@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SINGLE: THE BLOCKBUSTER 💔🎬</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Poppins:wght@300;400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ OVERLAYS ============ -->
+  <div class="film-grain"></div>
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div class="spotlight"></div>
+
+  <!-- ============ FLOATING ELEMENTS ============ -->
+  <div id="floating-hearts" class="floating-hearts"></div>
+  <div id="sparkles" class="sparkles"></div>
+
+  <!-- ============ CORNER LABEL ============ -->
+  <div class="now-playing">
+    🎬 NOW PLAYING: <strong>SINGLE</strong> (Romance / Comedy / Trauma)
+  </div>
+
+  <!-- ============ FAKE RATING ============ -->
+  <div class="rating-badge">
+    ⭐ 9.9/10<br />
+    <span>"Audience cried instantly"</span>
+  </div>
+
+  <!-- ============ MAIN SCREEN ============ -->
+  <div id="main-screen" class="main-screen">
+    <div class="movie-poster">
+      <h1 class="title">SINGLE: THE BLOCKBUSTER <span class="emoji-title">💔🎬</span></h1>
+      <p class="subtitle">Based on a true story (By Nidula)<em>(unfortunately)</em>.</p>
+      <p class="starring">Starring: <strong>Me, Myself &amp; My Playlist</strong> 🎧</p>
+
+      <div class="divider"></div>
+
+      <h2 class="question">Are you single this Valentine's Day? 😭</h2>
+
+      <div class="buttons-area">
+        <button id="btn-yes" class="btn btn-yes">YES 💔</button>
+        <button id="btn-no" class="btn btn-no">NO 🤥</button>
+      </div>
+
+      <!-- Dialogue Box -->
+      <div class="dialogue-box">
+        <span class="dialogue-icon">🎬</span>
+        <p id="dialogue-text" class="dialogue-text">"Press a button... if you dare."</p>
+      </div>
+
+      <!-- Trailer Mode Button -->
+      <button id="btn-trailer" class="btn-trailer">▶ TRAILER MODE</button>
+    </div>
+  </div>
+
+  <!-- ============ TRAILER OVERLAY ============ -->
+  <div id="trailer-overlay" class="trailer-overlay hidden">
+    <div id="trailer-text" class="trailer-text"></div>
+  </div>
+
+  <!-- ============ CINEMATIC ENDING SCREEN ============ -->
+  <div id="ending-screen" class="ending-screen hidden">
+    <div id="ending-hearts" class="floating-hearts"></div>
+
+    <div class="ending-content">
+      <h1 class="ending-title">WELCOME TO THE SINGLE CLUB 😭💔</h1>
+      <p class="ending-subtitle">Membership is permanent <em>(unless you get lucky)</em>.</p>
+
+      <div class="credits-scroll">
+        <div class="credits-content">
+          <p class="credit-heading">— CREDITS —</p>
+
+          <div class="credit-item">
+            <span class="credit-role">Directed by</span>
+            <span class="credit-name">Bad Timing</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Produced by</span>
+            <span class="credit-name">Overthinking</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Starring</span>
+            <span class="credit-name">You and Your Pillow</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Music by</span>
+            <span class="credit-name">Sad Spotify Playlist</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Villain</span>
+            <span class="credit-name">Couples on Instagram</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Special Effects</span>
+            <span class="credit-name">Tears at 2AM</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Costume Design</span>
+            <span class="credit-name">Pyjamas (All day)</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Catering</span>
+            <span class="credit-name">Ice Cream &amp; Regret</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Stunt Double</span>
+            <span class="credit-name">Your Best Friend's Relationship Advice</span>
+          </div>
+          <div class="credit-item">
+            <span class="credit-role">Editor</span>
+            <span class="credit-name">Sleep Deprivation</span>
+          </div>
+          <div class="credit-item happy-ending">
+            <span class="credit-role">Happy Ending</span>
+            <span class="credit-name">NOT FOUND (404)</span>
+          </div>
+
+          <p class="credit-footer">© 2026 Single Studios | All Rights (and Wrongs) Reserved</p>
+          <p class="credit-footer-small">No hearts were actually broken during the making of this film.<br/>Just kidding. Many were. 💔</p>
+        </div>
+      </div>
+
+      <button id="btn-replay" class="btn btn-replay">Replay My Tragic Love Story 🔁</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
